@@ -8,58 +8,69 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="home">
             <ul>
                 <li>
-                    <button type="button" href="#about-me">Про мене</button>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <button type="button" href="#text">Мої проекти</button>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <button type="button" href="#">Контакти</button>
+                    <a href="https://www.work.ua/ru/resumes/6565751/">Resume</a> 
+                </li>
+                <li>
+                    <a href="#project">Project</a> 
+                </li>
+                <li>
+                    <a href="#contact">Contact</a> 
                 </li>
             </ul>
         </nav>
+        <h1>I’m Oleksii Havryliuk</h1>
+        <div>
+            I am a Front-end developer creating awesome websites for you.
+                Let’s starting scrolling and learn about me
+        </div>
+        
     </header>
 
     <main>
-        <section class="section1" id="abot-me">   
-            <div>
-                <img src="img/photo_2020-11-10_16-19-17.jpg" alt="">
-            </div>
-            <div class="heading">
-                <h1>Привіт , мене звуть Олексій , я початківець Junior Frontend developer</h1>
-                
-                <div class="skills_blocks">
-                    <div class="skills">
-                        <div><span>Навички та вміння:</span></div>
-                        <ul>
-                            <li>Основи HTML</li>
-                            <li>Основи Css:Flex,Grid,Scss.</li>
-                            <li>Основи JavaScript</li>
-                            <li>Основи Github та Git bash</li>
-                            <li>Верстка лендінгів та багатосторінкові сайти</li>
-                            <li>Адаптивна , кросс-браузерних , валідних сайтів.</li>
-                            <li>Adobe Photoshop,Figma,Zeplin.</li>
-                        </ul>
-                    </div>
-                    <div class="about_me_text">
-                        <span>Про себе:</span>
-                        <br>
-                        <span >Мені 21 рік , навчаюсь у Києві в НТУУ "КПІ ім.І.Сікорського" на факультеті ТЕФ , спеціальності Комп'ютерні науки.
-                            До хобі можу віднести плавання та та проводження часу за комп'ютером.Я спокійна та товариська особа яка уникає сварок та шукає компроміс у спірній ситуації.
-                            Також працьовитий та наполегливий. Коли стикаюсь з проблемами тоді спробую всі варіанти вирішення і тоді вже звернусь за допомогою.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-        </section >
-            
-
+        <section>
+            <h2 class="about-me" id="about">About me</h2> 
+            <div class="my_name">My name is Oleksii Havryluik and I am 21 years old.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur 
+                magni dolores eos qui ratione voluptatem sequi nesciunt.
+                I like to look for interesting solutions, create the impossible  with css and
+                implement ideas in the form of websites. I am always looking for interesting solutions
+                to accomplish my tasks.</div>  
+        </section>
+             
         <section class="section2">
-            <h2>Мої проекти</h2>
+            <h2 class="skills">Skills</h2>
+            <div class="skills_box">
+                <div class="skills_box1">
+                    <ul>
+                        <li>HTML 5</li>
+                        <li>CSS(SCSS)</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skills_box2">
+                    <ul>
+                        <li>Github , Git Bush</li>
+                        <li>Adobe Photoshop, Zeplin</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>    
+        </section>
+
+        <section class="section3" id="project">
+            <h3>Check out some of my works.</h3>
             <div class="grid">
                 <div class="grid-item">
                     <a href="https://keleseth.github.io/SpaSalon.github.io/"><img src="img/1.PNG" alt=""></a>
@@ -83,17 +94,15 @@
         </section>
     </main>
 
-    <footer>        
+    <footer id="contact">        
         <div>
-            <a href="https://github.com/Keleseth">Github</a>
+            <ul>
+                <li><a href="https://github.com/Keleseth"><img src="./img/github-logo_icon-icons.com_73546.svg" alt="github"></a></li>
+                <li><a href="mailto:infernoregent@gmail.com"><img src="./img/mail-black-envelope-symbol_icon-icons.com_56519.svg" alt="e-mail"></a></li>
+                <li><a href="tel:+380673632814"><img src="./img/phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478.svg" alt=""></a></li>
+                <li><a href="https://telegram.me/Keleseth"><img src="./img/telegram_logo_icon_144811.svg" alt="telegram"></a></li>
+            </ul>
         </div>
-        <div>
-            <span>E-mail:<a href="mailto:infernoregent@gmail.com">infernoregent@gmail.com</a></span>
-        </div>
-        <div>
-            <span>Моб.телефон:<a href="tel:+380673632814">+380673632814</a></span>
-        </div>
-
     </footer>
 </body>
 </html>
